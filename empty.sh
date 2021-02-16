@@ -1,8 +1,9 @@
 #! /bin/bash
 
-a=10
-b=20
+read -p "enter the number 1" num1
+read -p "enter the number 2" num2
+read -p "enter the number 3" num3
 
-sum=$(( $a + $b ))
-
-echo $sum
+echo $num1
+echo $num2
+echo $num3
